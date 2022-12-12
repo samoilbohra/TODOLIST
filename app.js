@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // setting up database 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://cluster0.afjmipb.mongodb.net/myFirstDatabase");
+mongoose.connect("mongodb+srv://samoilbarda:Samoil123@cluster0.afjmipb.mongodb.net/todolistDB");
 
 //compled seeting database up 
 //creating schema of the todolistDB
